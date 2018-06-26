@@ -6,16 +6,13 @@ public class GameCenter : MonoBehaviour
 {
     #region Inspecter Variables
     public GameObject HomeSet;
-
+    public int score;
+    public int gem;
     #endregion
-    [HideInInspector] public int GamePoint = 0;
     bool isGameActive = false;
 
     // Use this for initialization
-    void Start()
-    {
 
-    }
     void PrePareView()
     {
 
