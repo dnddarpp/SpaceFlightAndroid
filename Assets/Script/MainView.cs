@@ -4,13 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 namespace SpaceFlight.Lobby
 {
-public class MainView : BaseView
-{
-	[SerializeField]
-	private Image m_AvatarImg = null;
-	
+	public class MainView : BaseView
+	{
+		[SerializeField]
+		private Image m_AvatarImg = null;
+		 
 		
 	
-}
+	}
 }
 

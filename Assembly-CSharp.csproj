@@ -54,7 +54,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scenes\GameScene.cs" />
+     <Compile Include="Assets\Script\Achievement.cs" />
      <Compile Include="Assets\Script\BaseView.cs" />
+     <Compile Include="Assets\Script\CharacterMode.cs" />
+     <Compile Include="Assets\Script\Game.cs" />
+     <Compile Include="Assets\Script\GameOver.cs" />
+     <Compile Include="Assets\Script\GemStoreView.cs" />
      <Compile Include="Assets\Script\lobby.cs" />
      <Compile Include="Assets\Script\MainView.cs" />
  <Reference Include="UnityEditor.StandardEvents">
