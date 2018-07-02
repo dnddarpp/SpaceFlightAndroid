@@ -24,7 +24,7 @@ namespace SpaceFlight.Lobby
 
 		public enum PageEnum
 		{
-			Home,
+			//Home,
 			GemStore,
 			CharacterMode,
 			Setting,
@@ -34,7 +34,10 @@ namespace SpaceFlight.Lobby
 			None,
 
 		}
-
+		 void Awake() 
+		{
+			m_MainView.OnSwitchPage+= (a) => { SwitchView(a); };
+		}
 		public void SwitchView(PageEnum page, PageEnum bachPage = PageEnum.None, params object [] obs )
 		{
 			if(null != mCurrentView && mCurrentView.PageFlag == page)
@@ -45,9 +48,9 @@ namespace SpaceFlight.Lobby
 			
 			switch(page)
 			{
-				case PageEnum.Home:
+			/*	case PageEnum.Home:
 				m_MainView.Show();
-				break;	
+				break;	*/
 
 				case PageEnum.GemStore:
 				m_GemStoreView.Show();

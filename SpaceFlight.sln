@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceFlight", "Assembly-CSharp.csproj", "{F93166BC-32DF-44F0-5BEF-D084D305847F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceFlight", "Assembly-CSharp-firstpass.csproj", "{B59216B1-63CE-FEA5-C13B-8D0F684E70F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceFlight", "Assembly-CSharp-Editor-firstpass.csproj", "{0A389950-71AE-1D88-62E0-240A3E310C31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{F93166BC-32DF-44F0-5BEF-D084D305847F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F93166BC-32DF-44F0-5BEF-D084D305847F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F93166BC-32DF-44F0-5BEF-D084D305847F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B59216B1-63CE-FEA5-C13B-8D0F684E70F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59216B1-63CE-FEA5-C13B-8D0F684E70F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59216B1-63CE-FEA5-C13B-8D0F684E70F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59216B1-63CE-FEA5-C13B-8D0F684E70F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A389950-71AE-1D88-62E0-240A3E310C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A389950-71AE-1D88-62E0-240A3E310C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A389950-71AE-1D88-62E0-240A3E310C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A389950-71AE-1D88-62E0-240A3E310C31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
