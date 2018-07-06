@@ -53,7 +53,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scenes\GameScene.cs" />
      <Compile Include="Assets\Script\Achievement.cs" />
      <Compile Include="Assets\Script\ADManger.cs" />
      <Compile Include="Assets\Script\BaseView.cs" />
@@ -63,6 +62,7 @@
      <Compile Include="Assets\Script\GemStoreView.cs" />
      <Compile Include="Assets\Script\lobby.cs" />
      <Compile Include="Assets\Script\MainView.cs" />
+     <Compile Include="Assets\Script\Setting.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/User/Project/SpaceFlight/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

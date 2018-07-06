@@ -21,10 +21,12 @@ namespace SpaceFlight.Lobby
 		private Game m_GameView = null;
 		[SerializeField]
 		private GameOver m_GameOverView = null;
+		[SerializeField]
+		private  Setting m_Setting = null;
 
 		public enum PageEnum
 		{
-			//Home,
+			Home,
 			GemStore,
 			CharacterMode,
 			Setting,
@@ -48,9 +50,9 @@ namespace SpaceFlight.Lobby
 			
 			switch(page)
 			{
-			/*	case PageEnum.Home:
+				case PageEnum.Home:
 				m_MainView.Show();
-				break;	*/
+				break;	
 
 				case PageEnum.GemStore:
 				m_GemStoreView.Show();
@@ -70,6 +72,10 @@ namespace SpaceFlight.Lobby
 
 				case PageEnum.GameOver:
 				
+				break;
+				
+				case PageEnum.Setting:
+				m_Setting.Show();
 				break;
 			}
 			

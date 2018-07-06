@@ -7,7 +7,7 @@ using System;
 
 namespace SpaceFlight.Lobby
 {
-	public class MainView : MonoBehaviour
+	public class MainView : BaseView
 	{
 		public Action <Lobby.PageEnum> OnSwitchPage;
 		public void StartGame() //遊戲開始
