@@ -71,7 +71,7 @@ namespace SpaceFlight.Lobby
 				break;
 
 				case PageEnum.GameOver:
-				
+				m_GameOverView.Show();
 				break;
 				
 				case PageEnum.Setting:
